@@ -1,4 +1,4 @@
-# 12 — Modelo de implementación: de la recomendación a lo que realmente ocurre
+# 12 - Modelo de implementación: de la recomendación a lo que realmente ocurre
 
 > [Volver a `docs/`](../) · [Especificación mínima](../../models/implementation_model/) · [Configuración](../../config/implementation_model.yml) · [Mapa completo](../../REPOSITORY_MAP.md)
 

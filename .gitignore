@@ -1,20 +1,39 @@
-# Local/private data and credentials
+# Credenciales y contenido local/restringido
 .env
 .env.*
 !/.env.example
 local_private/
+
+# Datos originales restringidos
 data/raw_private/*
 !data/raw_private/README.md
 !data/raw_private/README.en.md
 !data/raw_private/.gitkeep
 
-# Generated outputs
+# Productos internos: no versionar en el repositorio público
+data/interim/*
+!data/interim/README.md
+!data/interim/README.en.md
+
+data/processed/*
+!data/processed/README.md
+!data/processed/README.en.md
+
+# Resultados generados: internos por defecto
 outputs/**
-!outputs/**/README.md
-!outputs/**/README.en.md
+!outputs/README.md
+!outputs/README.en.md
+!outputs/runs/README.md
+!outputs/runs/README.en.md
+!outputs/figures/README.md
+!outputs/figures/README.en.md
+!outputs/tables/README.md
+!outputs/tables/README.en.md
+
+# Entregas generadas
 releases/
 
-# R/Python/OS
+# R/Python/sistema operativo
 .Rhistory
 .RData
 .Rproj.user/
@@ -25,7 +44,7 @@ __pycache__/
 .DS_Store
 Thumbs.db
 
-# Stock Synthesis generated outputs
+# Archivos generados por Stock Synthesis
 *.par
 *.rep
 *.cor

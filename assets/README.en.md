@@ -6,4 +6,4 @@ This folder contains the graphic resources used to identify and document the rep
 
 | File | Purpose |
 |---|---|
-| `logo_hex_mse.svg` | Main template logo, representing a fishery resource within an observation, evaluation, and management cycle. |
+| `logo_hex_mse.svg` | Main project logo, representing a fishery resource within an observation, evaluation, and management cycle. |

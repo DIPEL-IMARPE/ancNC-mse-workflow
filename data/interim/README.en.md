@@ -1,3 +1,3 @@
-# interim
+# Internal intermediate data
 
-Reproducible intermediate products, normally internal.
+Temporary reproducible products generated during cleaning, integration, or transformation. Internal by default and excluded from Git.

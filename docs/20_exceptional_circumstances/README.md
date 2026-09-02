@@ -1,4 +1,4 @@
-# 20 — Circunstancias excepcionales
+# 20 - Circunstancias excepcionales
 
 > [Volver a `docs/`](../) · [Registro de circunstancias excepcionales](../../registry/exceptional_circumstances_registry.csv) · [Mapa completo](../../REPOSITORY_MAP.md)
 

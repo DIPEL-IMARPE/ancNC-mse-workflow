@@ -1,4 +1,4 @@
-# 05 — Resumir y comparar el desempeño
+# 05 - Resumir y comparar el desempeño
 
 > [Volver a `scripts/`](../) · [Métricas de desempeño](../../docs/13_performance_metrics/) · [Mapa completo](../../REPOSITORY_MAP.md)
 

@@ -1,5 +1,18 @@
-# 02_stock_ecology
+# Biología y ecología de la anchoveta Norte-Centro
 
-Documentar los procesos biológicos y ecológicos que puedan afectar las decisiones de manejo: crecimiento, madurez, mortalidad natural, fecundidad, longevidad, reclutamiento, estructura del stock, movimiento, distribución, agregación, estacionalidad e interacciones ecosistémicas cuando sean relevantes.
+Esta carpeta documenta la evidencia biológica y ecológica necesaria para decidir qué procesos debe representar el modelo operativo.
 
-La complejidad debe adaptarse a la especie y a la pregunta de manejo. Procesos como reclutamiento episódico, cambios de régimen, estructura espacial o funciones tróficas se incorporan solo cuando puedan modificar el desempeño de las estrategias evaluadas.
+Como mínimo se debe revisar:
+
+- definición y límites del stock;
+- crecimiento y su variación temporal;
+- madurez y reproducción;
+- mortalidad natural;
+- reclutamiento, pulsos y posibles regímenes;
+- estructura de tallas/edades;
+- distribución espacial y movimiento;
+- estacionalidad;
+- sensibilidad a condiciones ambientales;
+- función de la anchoveta como especie forrajera.
+
+Para cada componente distinga claramente entre evidencia observada, parámetros estimados, supuestos, hipótesis alternativas e información aún no resuelta.

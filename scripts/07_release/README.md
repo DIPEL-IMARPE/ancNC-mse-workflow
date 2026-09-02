@@ -1,10 +1,10 @@
-# 07 — Preparar una entrega del proyecto
+# 07 - Preparar una entrega del proyecto
 
 > [Volver a `scripts/`](../) · [Política de datos](../../DATA_POLICY.md) · [Mapa completo](../../REPOSITORY_MAP.md)
 
 Esta etapa prepara una **copia del proyecto para compartirla con un público determinado**, respetando las reglas de visibilidad definidas en `publication.yml`.
 
-En el template se distinguen tres tipos generales de entrega:
+En este proyecto se distinguen tres tipos generales de entrega:
 
 - **pública:** solo material autorizado para distribución abierta;
 - **interna:** material para colaboradores autorizados;

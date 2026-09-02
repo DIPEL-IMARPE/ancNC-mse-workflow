@@ -2,7 +2,7 @@
 
 > **Idioma principal:** español · [English version](README.en.md) · [Mapa completo](../REPOSITORY_MAP.md)
 
-`src` significa *source code*. En este template contiene las **funciones reutilizables que realizan los cálculos del MSE**. Una función puede calcular reclutamiento, generar un índice observado, aplicar una HCR o calcular una métrica de riesgo.
+`src` significa *source code*. En este proyecto contiene las **funciones reutilizables que realizan los cálculos del MSE**. Una función puede calcular reclutamiento, generar un índice observado, aplicar una HCR o calcular una métrica de riesgo.
 
 La idea es evitar copiar la misma ecuación en varios archivos. Las funciones se escriben aquí una vez y luego los scripts de `scripts/` las utilizan cuando ejecutan cada etapa del proyecto.
 

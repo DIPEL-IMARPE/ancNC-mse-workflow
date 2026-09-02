@@ -1,1 +1,10 @@
 data_id,dataset,owner,years,temporal_resolution,spatial_resolution,variables,units,access_class,mse_use,status,source_id
+ANCNC_ACOUSTIC,Cruceros y observaciones hidroacústicas,IMARPE,TBD,TBD,TBD,TBD,TBD,to_classify,OM conditioning;Observation Model,to_inventory,TBD
+ANCNC_CATCH,Capturas y desembarques,TBD,TBD,TBD,TBD,TBD,TBD,to_classify,OM conditioning;Implementation;Validation,to_inventory,TBD
+ANCNC_EFFORT,Esfuerzo y características de flota,TBD,TBD,TBD,TBD,TBD,TBD,to_classify,Fishery;Implementation Model,to_inventory,TBD
+ANCNC_LENGTH,Composiciones de talla,IMARPE,TBD,TBD,TBD,TBD,TBD,to_classify,OM conditioning;Observation;Assessment,to_inventory,TBD
+ANCNC_BIO,Biología y reproducción,IMARPE,TBD,TBD,TBD,TBD,TBD,to_classify,Growth;Maturity;Condition;Observation,to_inventory,TBD
+ANCNC_JUV,Monitoreo de juveniles,IMARPE,TBD,TBD,TBD,TBD,TBD,to_classify,Observation;Management;Implementation,to_inventory,TBD
+ANCNC_MGMT,Historia de medidas de manejo,PRODUCE/IMARPE,TBD,event/season,TBD,TBD,TBD,to_classify,Status quo reconstruction;MP,to_inventory,TBD
+ANCNC_ASSESS,Inputs outputs y diagnósticos de evaluación de stock,IMARPE,TBD,TBD,TBD,TBD,TBD,to_classify,OM conditioning;Estimation Model,to_inventory,TBD
+ANCNC_ENV,Información ambiental relevante,TBD,TBD,TBD,TBD,TBD,TBD,to_classify,OM hypotheses;Robustness scenarios,to_inventory,TBD

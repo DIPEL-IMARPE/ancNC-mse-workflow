@@ -1,4 +1,4 @@
-# Reference Set — conjunto principal de modelos operativos
+# Reference Set - conjunto principal de modelos operativos
 
 > [Volver a `config/`](../) · [Incertidumbre y escenarios](../../docs/14_uncertainty_scenarios/) · [Mapa completo](../../REPOSITORY_MAP.md)
 

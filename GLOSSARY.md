@@ -1,4 +1,4 @@
-# Glosario breve del template MSE
+# Glosario breve de `ancNC-mse-workflow`
 
 > Este glosario complementa el [`README.md`](README.md). Incluye términos científicos y computacionales que aparecen con frecuencia en el repositorio.
 

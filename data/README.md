@@ -1,20 +1,54 @@
-# Datos del proyecto (`data/`)
+# Datos del MSE de anchoveta Norte-Centro (`data/`)
 
-> **Idioma principal:** español · [English version](README.en.md) · [Mapa completo](../REPOSITORY_MAP.md)
+> **Idioma principal:** español - [English version](README.en.md) - [Mapa completo](../REPOSITORY_MAP.md)
 
-Esta carpeta organiza los datos por **nivel de acceso** y por **etapa de procesamiento**. La idea es evitar mezclar archivos originales, productos intermedios y datos listos para el MSE.
+Esta carpeta organiza los datos del proyecto por **nivel de acceso** y por **etapa de procesamiento**. El repositorio GitHub es público, pero la mayoría de los datos institucionales necesarios para el MSE pueden no serlo.
 
-| Carpeta | Qué contiene |
-|---|---|
-| [`examples/`](examples/) | Datos ficticios y pequeños usados únicamente para comprobar que el template funciona. |
-| [`public/`](public/) | Datos que pueden redistribuirse públicamente, con su fuente y licencia registradas. |
-| [`raw_private/`](raw_private/) | Datos originales restringidos. Git ignora su contenido para evitar subirlo accidentalmente. |
-| [`interim/`](interim/) | Productos intermedios reproducibles generados durante limpieza, integración o transformación. |
-| [`processed/`](processed/) | Datos limpios, validados y listos para análisis, condicionamiento del OM o simulación. |
-| [`metadata/`](metadata/) | Diccionarios de variables, unidades, cobertura temporal/espacial, cambios de protocolo y reglas de control de calidad. |
+| Carpeta | Clase por defecto | Qué contiene | ¿Se versiona? |
+|---|---|---|---:|
+| [`examples/`](examples/) | public | datos sintéticos pequeños para comprobar el flujo | sí |
+| [`public/`](public/) | public | datos reales expresamente autorizados para redistribución | sí |
+| [`metadata/`](metadata/) | public | diccionarios, unidades, cobertura, esquemas y QC no sensibles | sí |
+| [`raw_private/`](raw_private/) | restricted | datos originales restringidos | no |
+| [`interim/`](interim/) | internal | productos intermedios derivados durante limpieza/integración | no |
+| [`processed/`](processed/) | internal | insumos limpios listos para análisis o MSE | no, salvo autorización explícita |
 
-## Regla básica
+## Flujo recomendado
 
-Los datos originales restringidos **no deben entrar al historial de Git**, aunque el repositorio sea privado. Registre cada conjunto de datos en [`registry/data_inventory.csv`](../registry/data_inventory.csv) e indique propietario, periodo, resolución, variables, nivel de acceso y uso dentro del MSE.
+```text
+dato original restringido
+        |
+        v
+data/raw_private/       (local, no Git)
+        |
+        v
+procesamiento reproducible
+        |
+        +--> data/interim/      (local, no Git)
+        |
+        +--> data/processed/    (local, no Git)
+        |
+        +--> producto autorizado
+                 |
+                 v
+             data/public/       (Git permitido)
+```
 
-Consulte también [`DATA_POLICY.md`](../DATA_POLICY.md).
+## Inventario inicial esperado
+
+Para este MSE se debe evaluar la disponibilidad de, al menos:
+
+- cruceros y observaciones hidroacústicas;
+- series de biomasa/abundancia e incertidumbre asociada;
+- capturas y desembarques;
+- esfuerzo y características de la flota;
+- composiciones de talla;
+- muestreo biológico y reproductivo;
+- monitoreo de juveniles y distribución espacial;
+- historia de temporadas, cuotas, cierres y otras medidas de manejo;
+- inputs, outputs y diagnósticos de la evaluación de stock;
+- información ambiental relevante para hipótesis del OM o escenarios de robustez.
+
+La inclusión en esta lista **no determina que el dato sea público ni que deba entrar al OM**. Cada fuente se evaluará individualmente.
+
+Registre todo conjunto de datos en [`registry/data_inventory.csv`](../registry/data_inventory.csv), incluso si su contenido es privado.

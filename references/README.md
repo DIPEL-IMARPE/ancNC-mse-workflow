@@ -1,18 +1,29 @@
 # Fuentes que sustentan el MSE (`references/`)
 
-> **Idioma principal:** español · [English version](README.en.md) · [Mapa completo](../REPOSITORY_MAP.md)
+> **Idioma principal:** español - [English version](README.en.md) - [Mapa completo](../REPOSITORY_MAP.md)
 
-Aquí se guardan —o se enlazan cuando no pueden redistribuirse— los documentos que respaldan los datos, parámetros, supuestos y decisiones del MSE. Esta carpeta funciona como la **biblioteca de evidencia** del proyecto.
+Esta carpeta funciona como la **biblioteca de evidencia versionable** de `ancNC-mse-workflow`.
 
-| Carpeta | Qué contiene |
+| Carpeta | Qué puede contener en GitHub |
 |---|---|
-| [`regulations/`](regulations/) | Normas, resoluciones, cuotas, temporadas, vedas, cierres y otras medidas oficiales de manejo. |
-| [`assessment_reports/`](assessment_reports/) | Evaluaciones de stock, benchmarks, actualizaciones, asesoramiento científico y revisiones. |
-| [`survey_reports/`](survey_reports/) | Informes de cruceros, acústica, monitoreo y muestreos científicos. |
-| [`literature/`](literature/) | Artículos, informes técnicos y otra literatura utilizada para sustentar hipótesis o parámetros. |
+| [`regulations/`](regulations/) | normas y medidas oficiales que puedan redistribuirse |
+| [`assessment_reports/`](assessment_reports/) | informes de evaluación autorizados para publicación |
+| [`survey_reports/`](survey_reports/) | informes de cruceros o monitoreo autorizados para publicación |
+| [`literature/`](literature/) | referencias o materiales cuya redistribución sea legal y apropiada |
 
-## Trazabilidad
+## Fuentes restringidas
 
-Toda fuente importante debe tener un identificador en [`registry/source_registry.csv`](../registry/source_registry.csv). Después, los parámetros, datos o decisiones pueden apuntar a ese `source_id` en lugar de depender de notas informales.
+Un documento no público **no debe copiarse aquí**. Registre en [`registry/source_registry.csv`](../registry/source_registry.csv):
 
-Si un documento es restringido, registre su existencia y ubicación autorizada sin copiarlo a un repositorio público.
+- identificador;
+- título;
+- institución propietaria;
+- año;
+- tipo de fuente;
+- ubicación autorizada;
+- clase de acceso;
+- componente del MSE que sustenta.
+
+El archivo puede permanecer en infraestructura institucional o en una ruta local ignorada, por ejemplo `local_private/references/`.
+
+Toda afirmación importante sobre biología, manejo, monitoreo, evaluación o parametrización debe poder rastrearse a una fuente o a una decisión documentada.

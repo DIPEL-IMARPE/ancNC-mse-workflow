@@ -1,0 +1,349 @@
+ancNC-mse-workflow
+├── .github
+│   ├── ISSUE_TEMPLATE
+│   │   ├── README.en.md
+│   │   ├── README.md
+│   │   └── scientific_decision.md
+│   ├── workflows
+│   │   ├── README.en.md
+│   │   ├── README.md
+│   │   └── repository-check.yml
+│   ├── ABOUT.en.md
+│   ├── ABOUT.md
+│   └── pull_request_template.md
+├── assets
+│   ├── logo_hex_mse.svg
+│   ├── README.en.md
+│   └── README.md
+├── certification
+│   ├── management_procedures
+│   │   ├── README.en.md
+│   │   └── README.md
+│   ├── reference_sets
+│   │   ├── README.en.md
+│   │   └── README.md
+│   ├── review
+│   │   ├── independent_review_checklist.md
+│   │   ├── README.en.md
+│   │   └── README.md
+│   ├── robustness_sets
+│   │   ├── README.en.md
+│   │   └── README.md
+│   ├── run_manifests
+│   │   ├── README.en.md
+│   │   ├── README.md
+│   │   └── run_manifest_template.yml
+│   ├── software
+│   │   ├── README.en.md
+│   │   └── README.md
+│   ├── README.en.md
+│   └── README.md
+├── config
+│   ├── experiments
+│   │   ├── base_experiment.yml
+│   │   ├── README.en.md
+│   │   └── README.md
+│   ├── management_procedures
+│   │   ├── mp_candidates.yml
+│   │   ├── README.en.md
+│   │   └── README.md
+│   ├── publication
+│   │   ├── README.en.md
+│   │   └── README.md
+│   ├── reference_set
+│   │   ├── README.en.md
+│   │   ├── README.md
+│   │   └── reference_set.yml
+│   ├── robustness_set
+│   │   ├── README.en.md
+│   │   ├── README.md
+│   │   └── robustness_set.yml
+│   ├── estimation_model.yml
+│   ├── implementation_model.yml
+│   ├── observation_model.yml
+│   ├── operating_model.yml
+│   ├── performance_metrics.yml
+│   ├── README.en.md
+│   └── README.md
+├── data
+│   ├── examples
+│   │   ├── demo_acoustic_index.csv
+│   │   ├── demo_catch.csv
+│   │   ├── demo_length_composition.csv
+│   │   ├── README.en.md
+│   │   └── README.md
+│   ├── interim
+│   │   ├── README.en.md
+│   │   └── README.md
+│   ├── metadata
+│   │   ├── README.en.md
+│   │   └── README.md
+│   ├── processed
+│   │   ├── README.en.md
+│   │   └── README.md
+│   ├── public
+│   │   ├── README.en.md
+│   │   └── README.md
+│   ├── raw_private
+│   │   ├── .gitkeep
+│   │   ├── README.en.md
+│   │   └── README.md
+│   ├── README.en.md
+│   └── README.md
+├── docs
+│   ├── 00_getting_started
+│   │   ├── README.en.md
+│   │   └── README.md
+│   ├── 01_governance_objectives
+│   │   ├── README.en.md
+│   │   └── README.md
+│   ├── 02_stock_ecology
+│   │   ├── README.en.md
+│   │   └── README.md
+│   ├── 03_fishery
+│   │   ├── README.en.md
+│   │   └── README.md
+│   ├── 04_management_system
+│   │   ├── README.en.md
+│   │   └── README.md
+│   ├── 05_monitoring_data
+│   │   ├── README.en.md
+│   │   └── README.md
+│   ├── 06_stock_assessment
+│   │   ├── README.en.md
+│   │   └── README.md
+│   ├── 07_mse_scope_design
+│   │   ├── README.en.md
+│   │   └── README.md
+│   ├── 08_operating_model
+│   │   ├── README.en.md
+│   │   └── README.md
+│   ├── 09_observation_model
+│   │   ├── README.en.md
+│   │   └── README.md
+│   ├── 10_estimation_model
+│   │   ├── README.en.md
+│   │   └── README.md
+│   ├── 11_management_procedures
+│   │   ├── README.en.md
+│   │   └── README.md
+│   ├── 12_implementation_model
+│   │   ├── README.en.md
+│   │   └── README.md
+│   ├── 13_performance_metrics
+│   │   ├── README.en.md
+│   │   └── README.md
+│   ├── 14_uncertainty_scenarios
+│   │   ├── README.en.md
+│   │   └── README.md
+│   ├── 15_experimental_design
+│   │   ├── README.en.md
+│   │   └── README.md
+│   ├── 16_conditioning_validation
+│   │   ├── README.en.md
+│   │   └── README.md
+│   ├── 17_tuning_selection
+│   │   ├── README.en.md
+│   │   └── README.md
+│   ├── 18_ecosystem_climate
+│   │   ├── README.en.md
+│   │   └── README.md
+│   ├── 19_economics_social
+│   │   ├── README.en.md
+│   │   └── README.md
+│   ├── 20_exceptional_circumstances
+│   │   ├── README.en.md
+│   │   └── README.md
+│   ├── 21_adoption_monitoring_review
+│   │   ├── README.en.md
+│   │   └── README.md
+│   ├── 22_reporting_communication
+│   │   ├── README.en.md
+│   │   └── README.md
+│   ├── 23_quality_assurance
+│   │   ├── README.en.md
+│   │   └── README.md
+│   ├── README.en.md
+│   └── README.md
+├── models
+│   ├── estimation_model
+│   │   ├── README.en.md
+│   │   ├── README.md
+│   │   └── specification.yml
+│   ├── implementation_model
+│   │   ├── README.en.md
+│   │   ├── README.md
+│   │   └── specification.yml
+│   ├── management_procedures
+│   │   ├── README.en.md
+│   │   ├── README.md
+│   │   └── specification.yml
+│   ├── observation_model
+│   │   ├── README.en.md
+│   │   ├── README.md
+│   │   └── specification.yml
+│   ├── operating_model
+│   │   ├── README.en.md
+│   │   ├── README.md
+│   │   └── specification.yml
+│   ├── reference_points
+│   │   ├── definitions.yml
+│   │   ├── README.en.md
+│   │   └── README.md
+│   ├── README.en.md
+│   └── README.md
+├── outputs
+│   ├── README.en.md
+│   └── README.md
+├── references
+│   ├── assessment_reports
+│   │   ├── README.en.md
+│   │   └── README.md
+│   ├── literature
+│   │   ├── README.en.md
+│   │   └── README.md
+│   ├── regulations
+│   │   ├── README.en.md
+│   │   └── README.md
+│   ├── survey_reports
+│   │   ├── README.en.md
+│   │   └── README.md
+│   ├── README.en.md
+│   └── README.md
+├── registry
+│   ├── data_inventory.csv
+│   ├── decision_log.csv
+│   ├── exceptional_circumstances_registry.csv
+│   ├── file_manifest.csv
+│   ├── management_history.csv
+│   ├── mp_registry.csv
+│   ├── objective_registry.csv
+│   ├── parameter_registry.csv
+│   ├── performance_metric_registry.csv
+│   ├── README.en.md
+│   ├── README.md
+│   ├── regulation_registry.csv
+│   ├── run_registry.csv
+│   ├── scenario_registry.csv
+│   ├── software_registry.csv
+│   ├── source_registry.csv
+│   └── uncertainty_registry.csv
+├── reports
+│   ├── management
+│   │   ├── decision_summary.qmd
+│   │   ├── README.en.md
+│   │   └── README.md
+│   ├── stakeholder
+│   │   ├── README.en.md
+│   │   └── README.md
+│   ├── technical
+│   │   ├── mse_technical_report.qmd
+│   │   ├── README.en.md
+│   │   └── README.md
+│   ├── README.en.md
+│   └── README.md
+├── scripts
+│   ├── 00_setup
+│   │   ├── build_tree.py
+│   │   ├── README.en.md
+│   │   ├── README.md
+│   │   ├── refresh_manifest.py
+│   │   └── repo_check.py
+│   ├── 01_data
+│   │   ├── prepare_inputs.R
+│   │   ├── README.en.md
+│   │   └── README.md
+│   ├── 02_condition_om
+│   │   ├── condition_om.R
+│   │   ├── README.en.md
+│   │   └── README.md
+│   ├── 03_validate_om
+│   │   ├── README.en.md
+│   │   ├── README.md
+│   │   └── validate_om.R
+│   ├── 04_run_mse
+│   │   ├── README.en.md
+│   │   ├── README.md
+│   │   └── run_demo.R
+│   ├── 05_summarize
+│   │   ├── README.en.md
+│   │   ├── README.md
+│   │   └── summarize_results.R
+│   ├── 06_reports
+│   │   ├── README.en.md
+│   │   ├── README.md
+│   │   └── render_reports.R
+│   ├── 07_release
+│   │   ├── README.en.md
+│   │   └── README.md
+│   ├── README.en.md
+│   └── README.md
+├── src
+│   ├── estimation
+│   │   ├── README.en.md
+│   │   └── README.md
+│   ├── implementation
+│   │   ├── README.en.md
+│   │   └── README.md
+│   ├── io
+│   │   ├── README.en.md
+│   │   └── README.md
+│   ├── metrics
+│   │   ├── README.en.md
+│   │   └── README.md
+│   ├── mp
+│   │   ├── README.en.md
+│   │   └── README.md
+│   ├── observation
+│   │   ├── README.en.md
+│   │   └── README.md
+│   ├── om
+│   │   ├── README.en.md
+│   │   └── README.md
+│   ├── validation
+│   │   ├── README.en.md
+│   │   └── README.md
+│   ├── README.en.md
+│   └── README.md
+├── tests
+│   ├── integration
+│   │   ├── README.en.md
+│   │   └── README.md
+│   ├── regression
+│   │   ├── README.en.md
+│   │   └── README.md
+│   ├── scientific
+│   │   ├── README.en.md
+│   │   └── README.md
+│   ├── unit
+│   │   ├── README.en.md
+│   │   └── README.md
+│   ├── README.en.md
+│   └── README.md
+├── .env.example
+├── .gitignore
+├── CHANGELOG.md
+├── CITATION.cff
+├── CONTRIBUTING.en.md
+├── CONTRIBUTING.md
+├── DATA_POLICY.en.md
+├── DATA_POLICY.md
+├── GLOSSARY.en.md
+├── GLOSSARY.md
+├── GOVERNANCE.en.md
+├── GOVERNANCE.md
+├── LICENSE_TEMPLATE.md
+├── Makefile
+├── PROJECT_CHARTER.en.md
+├── PROJECT_CHARTER.md
+├── publication.yml
+├── README.en.md
+├── README.md
+├── REPOSITORY_MAP.en.md
+├── REPOSITORY_MAP.md
+├── SECURITY.md
+├── species_profile.yml
+├── TEMPLATE_USAGE.en.md
+├── TEMPLATE_USAGE.md
+├── TREE.txt
+└── VERSION

@@ -1,4 +1,4 @@
-# 15 — Diseño del experimento de simulación
+# 15 - Diseño del experimento de simulación
 
 > [Volver a `docs/`](../) · [Configuración de experimentos](../../config/experiments/) · [Mapa completo](../../REPOSITORY_MAP.md)
 

@@ -1,4 +1,4 @@
-# 06 — Generar los informes
+# 06 - Generar los informes
 
 > [Volver a `scripts/`](../) · [Fuentes de informes](../../reports/) · [Mapa completo](../../REPOSITORY_MAP.md)
 

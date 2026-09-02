@@ -1,4 +1,4 @@
-# 01 — Preparar los datos
+# 01 - Preparar los datos
 
 > [Volver a `scripts/`](../) · [Datos](../../data/) · [Mapa completo](../../REPOSITORY_MAP.md)
 

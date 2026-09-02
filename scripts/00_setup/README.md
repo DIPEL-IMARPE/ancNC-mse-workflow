@@ -1,4 +1,4 @@
-# 00 — Preparar y comprobar el repositorio
+# 00 - Preparar y comprobar el repositorio
 
 > [Volver a `scripts/`](../) · [Mapa completo](../../REPOSITORY_MAP.md)
 

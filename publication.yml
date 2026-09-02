@@ -1,17 +1,30 @@
-publication_mode: "private"  # public | internal | private
+publication_mode: "public"
+
 classes:
-  public: "May be distributed publicly after review."
-  derived_public: "Derived from restricted material but explicitly approved for release."
-  internal: "For authorized collaborators only."
-  restricted: "Must never be committed to Git."
+  public: "Puede versionarse y redistribuirse después de verificar fuente, licencia o autorización."
+  derived_public: "Producto derivado de información no pública cuya difusión ha sido expresamente autorizada."
+  internal: "Solo para colaboradores autorizados; no debe versionarse en este repositorio público."
+  restricted: "No debe entrar al historial de Git."
+
 rules:
+  "data/examples/**": "public"
+  "data/public/**": "public"
+  "data/metadata/**": "public"
+  "registry/**": "public"
+  "docs/**": "public"
+  "src/**": "public"
+  "scripts/**": "public"
+  "config/**": "public"
+  "models/**": "public"
+  "reports/**": "public"
+  "certification/**": "public"
+
   "data/raw_private/**": "restricted"
   "local_private/**": "restricted"
   "data/interim/**": "internal"
   "data/processed/**": "internal"
   "outputs/**": "internal"
-  "references/**": "internal"
-  "data/examples/**": "public"
-  "data/public/**": "public"
-  "src/**": "public"
-  "scripts/**": "public"
+
+notes:
+  - "Una clasificación public en este archivo no sustituye la revisión de derechos, licencia o autorización antes de versionar un archivo real."
+  - "Los documentos restringidos se registran en source_registry.csv sin copiarse al repositorio."

@@ -1,7 +1,3 @@
-# Evidence sources (`references/`)
+# Evidence supporting the MSE (`references/`)
 
-> **Primary documentation language:** Spanish · [Versión en español](README.md) · [Repository map](../REPOSITORY_MAP.en.md)
-
-This folder is the project's evidence library. It contains or references official regulations, stock-assessment reports, survey/monitoring reports, and scientific literature used to support data, parameters, assumptions, and management decisions.
-
-Every material source should receive a `source_id` in `registry/source_registry.csv`, so parameters and decisions can point back to explicit evidence. Restricted documents should be registered without copying them into a public repository.
+This directory is the versionable evidence library for `ancNC-mse-workflow`. Only documents authorized for public redistribution should be committed. Restricted assessment reports, survey documents, technical notes, or other sources must be registered in `registry/source_registry.csv` without copying the files to this public repository.

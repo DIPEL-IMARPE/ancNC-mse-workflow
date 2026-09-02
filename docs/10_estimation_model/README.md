@@ -1,4 +1,4 @@
-# 10 — Modelo de estimación: reproducir la información usada para decidir
+# 10 - Modelo de estimación: reproducir la información usada para decidir
 
 > [Volver a `docs/`](../) · [Especificación mínima](../../models/estimation_model/) · [Configuración](../../config/estimation_model.yml) · [Mapa completo](../../REPOSITORY_MAP.md)
 

@@ -1,22 +1,17 @@
-# 07 — Definir el alcance y diseño del MSE
+# Alcance y diseño del MSE de anchoveta Norte-Centro
 
-> [Volver a `docs/`](../) · [Perfil de la especie](../../species_profile.yml) · [Mapa completo](../../REPOSITORY_MAP.md)
+Esta carpeta convierte el conocimiento documentado del sistema en decisiones explícitas sobre la complejidad del MSE.
 
-Esta etapa convierte la pregunta de manejo en un **experimento de simulación bien definido**. Antes de construir modelos complejos, el equipo debe decidir qué necesita representar para responder la pregunta.
+Decisiones aún abiertas (`TBD`) incluyen:
 
-## Decisiones principales
+- horizonte histórico usado para conditioning;
+- horizonte de proyección;
+- paso temporal biológico;
+- frecuencia de decisiones de manejo;
+- frecuencia de evaluación;
+- estructura espacial;
+- estructura de flota;
+- estructura del modelo operativo;
+- modelo de estimación dentro del ciclo cerrado.
 
-- **pregunta de decisión:** qué alternativas o incertidumbres debe evaluar la MSE;
-- **horizonte de proyección:** cuántos años o temporadas se simularán;
-- **periodo de estabilización (*warm-up*):** si el modelo necesita un periodo previo para generar estados iniciales coherentes;
-- **paso temporal:** anual, estacional, mensual, semanal u otro;
-- **frecuencia de evaluación y decisión:** cada cuánto se actualiza la información y se aplica la MP;
-- **estructura biológica:** edad, talla, ambas o una aproximación más simple;
-- **estructura espacial:** no espacial, regiones, áreas dinámicas u otra representación;
-- **ambiente, ecosistema y economía:** incluirlos solo si pueden modificar la conclusión de manejo.
-
-## Principio de parsimonia
-
-Una MSE más compleja no es automáticamente mejor. Debe incluir los procesos que puedan cambiar el desempeño relativo de las MPs y justificar aquellos que se omiten. La complejidad debe responder a objetivos, mecanismos ecológicos, incertidumbres y disponibilidad de información, no solo a la existencia de datos.
-
-Las decisiones de alto nivel se reflejan después en `species_profile.yml` y en los archivos de `config/`.
+Para anchoveta se debe evaluar especialmente si la dinámica intra-anual, la variación del reclutamiento, juveniles, distribución espacial, disponibilidad acústica, respuesta de flota y no estacionariedad ambiental son materiales para las preguntas de manejo. Si se omiten, la justificación debe quedar documentada.

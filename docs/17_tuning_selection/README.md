@@ -1,4 +1,4 @@
-# 17 — Ajustar y seleccionar procedimientos de manejo
+# 17 - Ajustar y seleccionar procedimientos de manejo
 
 > [Volver a `docs/`](../) · [Métricas](../13_performance_metrics/) · [Reference/Robustness Sets](../14_uncertainty_scenarios/) · [Mapa completo](../../REPOSITORY_MAP.md)
 
@@ -6,7 +6,7 @@ Esta etapa tiene dos tareas diferentes: **ajustar los parámetros de una MP** y 
 
 ## Ajuste o *tuning*
 
-El tuning modifica parámetros previamente identificados —por ejemplo un nivel objetivo de explotación, un umbral o un límite de cambio anual— para que la MP cumpla objetivos acordados.
+El tuning modifica parámetros previamente identificados -por ejemplo un nivel objetivo de explotación, un umbral o un límite de cambio anual- para que la MP cumpla objetivos acordados.
 
 Los objetivos y tolerancias de riesgo deben existir antes del tuning. No se deberían cambiar los criterios para favorecer una MP después de observar los resultados.
 

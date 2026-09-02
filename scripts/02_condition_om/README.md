@@ -1,4 +1,4 @@
-# 02 — Calibrar los modelos operativos
+# 02 - Calibrar los modelos operativos
 
 > [Volver a `scripts/`](../) · [Documentación del OM](../../docs/08_operating_model/) · [Mapa completo](../../REPOSITORY_MAP.md)
 

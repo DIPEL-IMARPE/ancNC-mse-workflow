@@ -1,4 +1,4 @@
-# 11 — Procedimientos de manejo y reglas de decisión
+# 11 - Procedimientos de manejo y reglas de decisión
 
 > [Volver a `docs/`](../) · [Especificación mínima](../../models/management_procedures/) · [Configuración](../../config/management_procedures/) · [Mapa completo](../../REPOSITORY_MAP.md)
 

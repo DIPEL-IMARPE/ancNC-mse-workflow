@@ -12,7 +12,7 @@ Esta carpeta contiene archivos que GitHub interpreta automáticamente para gober
 
 ## Por qué este archivo se llama `ABOUT.md` y no `README.md`
 
-GitHub puede dar prioridad a un `README.md` situado dentro de `.github/` al decidir qué documento mostrar como portada del repositorio. Para que la portada sea siempre el `README.md` de la raíz —la presentación del MSE—, esta carpeta se documenta mediante `ABOUT.md`.
+GitHub puede dar prioridad a un `README.md` situado dentro de `.github/` al decidir qué documento mostrar como portada del repositorio. Para que la portada sea siempre el `README.md` de la raíz -la presentación del MSE-, esta carpeta se documenta mediante `ABOUT.md`.
 
 ## Regla
 

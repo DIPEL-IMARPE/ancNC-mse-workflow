@@ -1,4 +1,4 @@
-# Short MSE template glossary
+# Short glossary for `ancNC-mse-workflow`
 
 > Spanish is the primary documentation language. [Versión en español](GLOSSARY.md)
 

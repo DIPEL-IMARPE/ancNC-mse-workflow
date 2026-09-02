@@ -1,4 +1,4 @@
-# 04 — Ejecutar la MSE en ciclo cerrado
+# 04 - Ejecutar la MSE en ciclo cerrado
 
 > [Volver a `scripts/`](../) · [Diseño del MSE](../../docs/07_mse_scope_design/) · [Mapa completo](../../REPOSITORY_MAP.md)
 
@@ -17,4 +17,4 @@ El script principal debe:
 - guardar resultados con un `run_id` único;
 - registrar la corrida en `registry/run_registry.csv`.
 
-`run_demo.R` es solamente una **prueba mínima del template**. No representa una MSE científica ni una especie real y debe reemplazarse o ampliarse en un proyecto verdadero.
+`run_demo.R` es solamente una **prueba mínima heredada de la plantilla de origen**. No representa una MSE científica ni una especie real y debe reemplazarse por la implementación científica del MSE de anchoveta Norte-Centro.

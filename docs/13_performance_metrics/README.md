@@ -1,4 +1,4 @@
-# 13 — Métricas de desempeño: cómo juzgar una estrategia
+# 13 - Métricas de desempeño: cómo juzgar una estrategia
 
 > [Volver a `docs/`](../) · [Registro de métricas](../../registry/performance_metric_registry.csv) · [Configuración](../../config/performance_metrics.yml) · [Mapa completo](../../REPOSITORY_MAP.md)
 

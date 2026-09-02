@@ -1,4 +1,4 @@
-# 09 — Modelo de observación: simular datos imperfectos
+# 09 - Modelo de observación: simular datos imperfectos
 
 > [Volver a `docs/`](../) · [Especificación mínima](../../models/observation_model/) · [Configuración](../../config/observation_model.yml) · [Mapa completo](../../REPOSITORY_MAP.md)
 

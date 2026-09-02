@@ -1,4 +1,4 @@
-# 03 — Validar los modelos operativos
+# 03 - Validar los modelos operativos
 
 > [Volver a `scripts/`](../) · [Validación científica](../../docs/16_conditioning_validation/) · [Mapa completo](../../REPOSITORY_MAP.md)
 

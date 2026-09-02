@@ -1,4 +1,4 @@
-# 08 — Modelo operativo: representar sistemas verdaderos plausibles
+# 08 - Modelo operativo: representar sistemas verdaderos plausibles
 
 > [Volver a `docs/`](../) · [Especificación mínima](../../models/operating_model/) · [Configuración](../../config/operating_model.yml) · [Mapa completo](../../REPOSITORY_MAP.md)
 
@@ -8,7 +8,7 @@ El **modelo operativo (OM)** representa el “sistema verdadero” dentro de la 
 
 - dinámica de abundancia o números por edad/talla;
 - reclutamiento y su variabilidad;
-- crecimiento y relación talla–peso;
+- crecimiento y relación talla-peso;
 - mortalidad natural;
 - madurez y reproducción;
 - selectividad y mortalidad por pesca;

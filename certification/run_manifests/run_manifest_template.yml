@@ -1,7 +1,10 @@
 run_id: "TBD"
 date: "TBD"
 git_commit: "TBD"
-template_version: "1.0.0"
+project_version: "0.1.0"
+source_template:
+  repository: "qselmer/.template-fisheries-mse"
+  version: "1.0.3"
 reference_set_version: "TBD"
 robustness_set_version: "TBD"
 mp_version: "TBD"

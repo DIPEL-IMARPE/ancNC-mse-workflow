@@ -12,7 +12,7 @@ This directory contains files that GitHub interprets automatically for repositor
 
 ## Why this file is `ABOUT.md`, not `README.md`
 
-GitHub can prioritize a `README.md` located inside `.github/` when deciding which document to display as the repository landing page. To ensure that the root `README.md`—the MSE overview—is always the repository cover, this directory is documented with `ABOUT.md`.
+GitHub can prioritize a `README.md` located inside `.github/` when deciding which document to display as the repository landing page. To ensure that the root `README.md`-the MSE overview-is always the repository cover, this directory is documented with `ABOUT.md`.
 
 ## Rule
 
