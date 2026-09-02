@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" role="img" aria-labelledby="title desc">
+  <title id="title">Logo para Evaluación de Estrategias de Manejo</title>
+  <desc id="desc">Hexágono con recurso pesquero estilizado, olas y ciclo de observación, evaluación, decisión e implementación.</desc>
+  <defs>
+    <style>
+      .navy{fill:#0B3C5D}.teal{fill:#1799A5}.aqua{fill:#55BCC8}.white{fill:#FFFFFF}
+      .line-navy{fill:none;stroke:#0B3C5D;stroke-width:14;stroke-linecap:round;stroke-linejoin:round}
+      .line-teal{fill:none;stroke:#1799A5;stroke-width:12;stroke-linecap:round;stroke-linejoin:round}
+    </style>
+  </defs>
+  <polygon points="256,24 456,140 456,372 256,488 56,372 56,140" class="white" stroke="#0B3C5D" stroke-width="14"/>
+  <path d="M134 187 A145 145 0 0 1 232 117" class="line-teal"/>
+  <polygon points="231,101 259,116 235,136" class="teal"/>
+  <path d="M290 116 A145 145 0 0 1 380 203" class="line-navy"/>
+  <polygon points="391,197 390,228 365,211" class="navy"/>
+  <path d="M381 301 A145 145 0 0 1 283 386" class="line-teal"/>
+  <polygon points="286,401 257,387 280,367" class="teal"/>
+  <path d="M225 390 A145 145 0 0 1 130 302" class="line-navy"/>
+  <polygon points="118,310 120,279 145,297" class="navy"/>
+  <circle cx="257" cy="103" r="34" class="teal"/>
+  <rect x="241" y="99" width="8" height="18" rx="2" class="white"/>
+  <rect x="253" y="90" width="8" height="27" rx="2" class="white"/>
+  <rect x="265" y="80" width="8" height="37" rx="2" class="white"/>
+  <circle cx="119" cy="269" r="34" class="teal"/>
+  <circle cx="119" cy="269" r="11" class="white"/>
+  <path d="M119 245v8M119 285v8M95 269h8M135 269h8M102 252l6 6M130 280l6 6M136 252l-6 6M108 280l-6 6" stroke="#fff" stroke-width="7" stroke-linecap="round"/>
+  <circle cx="393" cy="269" r="34" class="teal"/>
+  <circle cx="387" cy="263" r="14" fill="none" stroke="#fff" stroke-width="7"/>
+  <path d="M397 274l13 13" stroke="#fff" stroke-width="7" stroke-linecap="round"/>
+  <path class="navy" d="M151 238c42-43 100-55 164-37 23 7 43 18 61 34-17 16-37 27-61 34-63 18-121 6-164-37l-38 31 8-43-8-43 38 31zm55-18c26 18 58 23 94 15-33-11-64-13-94-15z"/>
+  <circle cx="343" cy="226" r="5" class="white"/>
+  <path d="M234 198l17-31 18 34M236 270l17 29 17-32" class="navy"/>
+  <path d="M172 323c38 19 67 17 94 0 29-18 61-19 94 0-34-4-59 4-83 19-33 21-70 20-105-19z" class="aqua"/>
+  <path d="M171 344c40 18 70 17 99 0 30-18 61-18 91-2-32-2-57 6-81 21-34 20-72 19-109-19z" class="teal"/>
+</svg>

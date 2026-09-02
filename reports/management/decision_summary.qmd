@@ -1,0 +1,12 @@
+---
+title: "MSE Decision Summary"
+format: html
+---
+
+# Decision question
+# Objectives and risk tolerances
+# Candidate MPs
+# Risks and trade-offs
+# Recommendation
+# Exceptional circumstances
+# Monitoring and review

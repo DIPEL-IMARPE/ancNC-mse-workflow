@@ -1,0 +1,8 @@
+implementation:
+  quota_uptake: "TBD"
+  catch_overrun: "TBD"
+  implementation_delay: "TBD"
+  compliance: "TBD"
+  spatial_closure_delay: "TBD"
+  fleet_redistribution: "TBD"
+  season_termination: "TBD"

@@ -1,0 +1,8 @@
+experiment:
+  projection_years: "TBD"
+  simulations: "TBD"
+  seed_block: "TBD"
+  common_random_numbers: true
+  reference_set: "config/reference_set/reference_set.yml"
+  robustness_set: "config/robustness_set/robustness_set.yml"
+  management_procedures: "config/management_procedures/mp_candidates.yml"

@@ -1,0 +1,19 @@
+observation:
+  acoustic_survey:
+    enabled: true
+    bias: "TBD"
+    cv: "TBD"
+    availability: "TBD"
+    coverage: "TBD"
+    missing_survey_process: "TBD"
+  catch:
+    reporting_error: "TBD"
+  length_composition:
+    sampling_model: "TBD"
+    effective_sample_size: "TBD"
+  biological_sampling:
+    enabled: "TBD"
+  in_season_monitoring:
+    frequency: "TBD"
+    juvenile_error: "TBD"
+    spatial_coverage: "TBD"

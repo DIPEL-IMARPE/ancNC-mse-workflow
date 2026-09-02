@@ -1,0 +1,35 @@
+# Local/private data and credentials
+.env
+.env.*
+!/.env.example
+local_private/
+data/raw_private/*
+!data/raw_private/README.md
+!data/raw_private/README.en.md
+!data/raw_private/.gitkeep
+
+# Generated outputs
+outputs/**
+!outputs/**/README.md
+!outputs/**/README.en.md
+releases/
+
+# R/Python/OS
+.Rhistory
+.RData
+.Rproj.user/
+renv/library/
+__pycache__/
+*.pyc
+.venv/
+.DS_Store
+Thumbs.db
+
+# Stock Synthesis generated outputs
+*.par
+*.rep
+*.cor
+*.eva
+*.bar
+*.std
+*.ss_new

@@ -1,0 +1,9 @@
+component: management_procedure
+required:
+  - input_data
+  - indicator_or_estimator
+  - decision_rule
+  - action
+  - timing
+  - constraints
+  - fallback

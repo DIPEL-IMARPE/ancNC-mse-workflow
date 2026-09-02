@@ -1,0 +1,8 @@
+management_procedures:
+  status_quo_reconstruction: {enabled: true, status: "TBD"}
+  biomass_hcr: {enabled: false}
+  seasonal_hcr: {enabled: false}
+  juvenile_sensitive_hcr: {enabled: false}
+  environmental_hcr: {enabled: false}
+  spatial_adaptive_mp: {enabled: false}
+  empirical_index_mp: {enabled: false}

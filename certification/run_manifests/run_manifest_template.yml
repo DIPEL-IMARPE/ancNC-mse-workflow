@@ -1,0 +1,12 @@
+run_id: "TBD"
+date: "TBD"
+git_commit: "TBD"
+template_version: "1.0.0"
+reference_set_version: "TBD"
+robustness_set_version: "TBD"
+mp_version: "TBD"
+seed_block: "TBD"
+software_snapshot: "TBD"
+input_checksums: []
+output_checksums: []
+approvals: []

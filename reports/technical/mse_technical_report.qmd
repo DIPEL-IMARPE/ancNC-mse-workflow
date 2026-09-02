@@ -1,0 +1,18 @@
+---
+title: "Management Strategy Evaluation — Technical Report"
+format: html
+---
+
+# Scope
+# Objectives and risk tolerances
+# Evidence and data
+# Operating models and conditioning
+# Reference and robustness sets
+# Observation and estimation
+# Management procedures and tuning
+# Implementation
+# Performance metrics and uncertainty
+# Ecosystem and climate
+# Exceptional circumstances
+# Monitoring and review
+# Certification

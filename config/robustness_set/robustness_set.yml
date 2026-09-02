@@ -1,0 +1,13 @@
+robustness_set:
+  description: "Secondary plausible and stress-test scenarios."
+  members:
+    - recruitment_regime_shift
+    - persistent_recruitment_failure
+    - acoustic_availability_bias
+    - missing_survey
+    - time_varying_selectivity
+    - growth_misspecification
+    - natural_mortality_misspecification
+    - implementation_delay
+    - climate_nonstationarity
+    - environment_recruitment_relationship_breakdown

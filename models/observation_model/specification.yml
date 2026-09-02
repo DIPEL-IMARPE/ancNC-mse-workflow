@@ -1,0 +1,10 @@
+component: observation_model
+required:
+  - catch_observation
+  - abundance_indices
+  - composition_sampling
+optional_but_must_justify:
+  - acoustic_availability
+  - spatial_sampling
+  - biological_sampling
+  - missing_surveys

@@ -1,0 +1,6 @@
+component: estimation_model
+required:
+  - indicator_or_assessment
+  - update_frequency
+  - uncertainty
+  - failure_policy

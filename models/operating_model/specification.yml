@@ -1,0 +1,15 @@
+component: operating_model
+required:
+  - population_dynamics
+  - recruitment
+  - growth
+  - mortality
+  - maturity
+  - selectivity
+  - fishing
+  - stochasticity
+optional_but_must_justify:
+  - spatial_dynamics
+  - environment
+  - ecosystem
+  - economics

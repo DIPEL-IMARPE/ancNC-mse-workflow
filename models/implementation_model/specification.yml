@@ -1,0 +1,10 @@
+component: implementation_model
+required:
+  - recommended_action
+  - realized_action
+  - implementation_error
+optional_but_must_justify:
+  - compliance
+  - delay
+  - fleet_response
+  - spatial_response

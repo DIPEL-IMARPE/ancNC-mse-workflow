@@ -1,0 +1,13 @@
+om:
+  structure: "TBD"
+  timestep: "TBD"
+  spatial_structure: "TBD"
+  age_or_length_structure: "TBD"
+  recruitment: {model: "TBD", process_error: "TBD", autocorrelation: "TBD", regimes: "TBD"}
+  growth: {model: "TBD", temporal_variation: "TBD"}
+  natural_mortality: {model: "TBD", variation: "TBD"}
+  maturity: {model: "TBD"}
+  selectivity: {model: "TBD", temporal_variation: "TBD", fleet_structure: "TBD"}
+  movement_distribution: {enabled: "TBD"}
+  environment: {enabled: "TBD", mechanism: "TBD"}
+  ecosystem: {enabled: "TBD", forage_constraints: "TBD"}

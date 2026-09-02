@@ -1,0 +1,30 @@
+project:
+  id: "EXAMPLE_FISHERY_MSE"
+  title: "Management Strategy Evaluation for an example fishery"
+  template_version: "1.0.3"
+  primary_language: "es"
+
+species:
+  common_name: "Example species"
+  scientific_name: "TBD"
+  stock: "Example stock"
+  management_area: "Example management area"
+  taxonomic_group: "TBD"
+  ecological_role: "TBD"
+
+institutions:
+  lead: "TBD"
+  management_authority: "TBD"
+  partners: []
+
+mse_scope:
+  historical_start_year: null
+  projection_years: null
+  time_step: "TBD"
+  management_cycle: "TBD"
+  spatial_structure: "TBD"
+  assessment_frequency: "TBD"
+
+status:
+  stage: "template_case_initialization"
+  note: "Replace example values and TBD fields with traceable case-specific information or documented scientific decisions when creating a real MSE project."

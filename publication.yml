@@ -1,0 +1,17 @@
+publication_mode: "private"  # public | internal | private
+classes:
+  public: "May be distributed publicly after review."
+  derived_public: "Derived from restricted material but explicitly approved for release."
+  internal: "For authorized collaborators only."
+  restricted: "Must never be committed to Git."
+rules:
+  "data/raw_private/**": "restricted"
+  "local_private/**": "restricted"
+  "data/interim/**": "internal"
+  "data/processed/**": "internal"
+  "outputs/**": "internal"
+  "references/**": "internal"
+  "data/examples/**": "public"
+  "data/public/**": "public"
+  "src/**": "public"
+  "scripts/**": "public"
