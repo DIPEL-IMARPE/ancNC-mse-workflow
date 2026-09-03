@@ -1,44 +1,87 @@
+# =============================================================================
+# 1. IDENTIDAD DEL PROYECTO
+# =============================================================================
+
 project:
-  id: "ANCNC_MSE"
-  repository: "ancNC-mse-workflow"
-  title_es: "Evaluación de Estrategias de Manejo (MSE) de la anchoveta peruana - stock Norte-Centro"
-  title_en: "Management Strategy Evaluation for the North-Central stock of Peruvian anchovy"
-  project_version: "0.1.0"
-  primary_language: "es"
+  id: "ANCNC_MSE"                                                                                        # ¿Cuál es el código corto del proyecto?
+  repository: "ancNC-mse-workflow"                                                                       # ¿Cuál es el nombre del repositorio?
+  title_es: "Evaluación de Estrategias de Manejo (MSE) del stock norte-centro de la anchoveta peruana"   # ¿Cuál es el título en español?
+  title_en: "Management Strategy Evaluation for the north-central stock of Peruvian anchovy"             # ¿Cuál es el título en inglés?
+  project_version: "0.1.0"                                                                               # ¿Qué versión tiene el proyecto? Ej.: 0.1.0 = versión inicial en desarrollo.
+  primary_language: "es"                                                                                 # ¿Cuál es el idioma principal?
 
 template:
-  source: "qselmer/.template-fisheries-mse"
-  template_version: "1.0.3"
+  source: "qselmer/.template-fisheries-mse"  # ¿De qué template nació este proyecto?
+  template_version: "1.0.0"                  # ¿Qué versión del template se utilizó?
+
+# =============================================================================
+# 2. ESPECIE, STOCK Y PESQUERÍA
+# =============================================================================
 
 species:
-  common_name_es: "Anchoveta peruana"
-  common_name_en: "Peruvian anchovy"
-  scientific_name: "Engraulis ringens"
-  stock: "Norte-Centro"
-  stock_en: "North-Central stock"
-  country: "Peru"
-  management_area: "TBD"
-  taxonomic_group: "Actinopterygii"
-  ecological_role: "Pez forraje pelágico pequeño"
-  forage_fish: true
+  common_name_es: "anchoveta"                 # ¿Cuál es el nombre común en español?
+  common_name_en: "Peruvian anchovy"           # ¿Cuál es el nombre común en inglés?
+  scientific_name: "Engraulis ringens"        # ¿Cuál es el nombre científico?
+  taxonomic_group: "Actinopterygii"           # ¿A qué grupo taxonómico pertenece?
+  ecological_role: "pez forrajero pelágico pequeño"  # ¿Cuál es su función ecológica?
+  forage_fish: true                           # ¿Es una especie forrajera?
+
+  stock: "norte-centro"                       # ¿Qué stock se evalúa?
+  stock_en: "north-central stock"             # ¿Cómo se llama el stock en inglés?
+  country: "Peru"                             # ¿En qué país se encuentra?
+
+  biological_stock_area: "TBD"                # ¿Dónde se distribuye biológicamente el stock?
+  management_area: "TBD"                      # ¿Dónde se aplican las medidas de manejo?
+  operating_model_domain: "TBD"               # ¿Qué área cubrirá el modelo operativo?
+
+fishery:
+  fishery_name_es: "pesquería del stock norte-centro de la anchoveta"         # ¿Qué pesquería se evalúa?
+  fishery_name_en: "fishery for the north-central stock of Peruvian anchovy"  # ¿Cómo se llama la pesquería en inglés?
+  management_unit: "stock norte-centro de anchoveta"                          # ¿Qué unidad de manejo?
+  fishery_type: "TBD"                                                         # ¿Qué tipo de pesquería se representará? Ej.: industrial, artesanal o ambas.
+  target_species: "Engraulis ringens"  
+  
+# =============================================================================
+# 3. INSTITUCIONES Y ACTORES
+# =============================================================================
 
 institutions:
-  scientific_lead: "IMARPE"
-  scientific_unit: "DIPEL"
-  management_authority: "PRODUCE"
-  partners: []
+  scientific_lead: "IMARPE"                   # ¿Qué institución lidera la parte científica?
+  scientific_unit: "DIPEL"                    # ¿Qué unidad de IMARPE lidera el proyecto?
+  management_authority: "PRODUCE"             # ¿Quién toma las decisiones de manejo?
+
+  technical_partners:                         # ¿Qué instituciones apoyan técnicamente?
+    - "The Pew Charitable Trusts"
+
+  scientific_partners: []                     # ¿Qué instituciones colaboran científicamente?
+
+  stakeholders:                               # ¿Qué otros actores participan?
+    - "Sociedad Nacional de Pesquería"
+
+# =============================================================================
+# 4. ALCANCE GENERAL DEL MSE
+# =============================================================================
 
 mse_scope:
-  historical_start_year: null
-  projection_years: null
-  biological_time_step: "TBD"
-  management_decision_frequency: "TBD"
-  assessment_frequency: "TBD"
-  spatial_structure: "TBD"
-  fleet_structure: "TBD"
-  operating_model_structure: "TBD"
-  estimation_model: "TBD"
+  historical_start_year: 1950                 # ¿Desde qué año se reconstruye o contextualiza el sistema?
+  projection_years: null                      # ¿Cuántos años hacia adelante se simularán? Ej.: 20, 30, 50.
+  biological_time_step: "TBD"                 # ¿Cada cuánto avanza la población simulada?  Ej.: mensual.
+  management_decision_frequency: "TBD"        # ¿Cada cuánto puede cambiar una decisión de manejo?
+  assessment_frequency: "TBD"                 # ¿Cada cuánto volvemos a estimar cómo está el stock?
+  spatial_structure: "TBD"                    # ¿Cómo se representará el espacio? Ej.: regional, latitudinal, grilla.
+  fleet_structure: "TBD"                      # ¿Cuántas flotas o segmentos se representarán?
+  operating_model_population_structure: "TBD" # ¿Cómo está construida la población verdadera? Ej.: "age-structured", "age-length structured", por edad + talla + espacio.
+  estimation_model_type: "TBD"                # ¿Cómo se estimará el estado del stock? Ej.: assessment completo o índice.
+  observation_model_scope: "TBD"              # ¿Qué datos y errores de observación se simularán?
+  implementation_model_scope: "TBD"           # ¿Qué diferencias entre decisión y ejecución se simularán?
+  management_procedure_scope: "TBD"           # ¿Qué decisiones podrá generar la MP? Ej.: cuota, apertura o cierre.
+  ecosystem_scope: "TBD"                      # ¿Qué procesos ambientales o ecosistémicos se incluirán?
+  economic_social_scope: "TBD"                # ¿Qué aspectos económicos o sociales se evaluarán?
+
+# =============================================================================
+# 5. ESTADO DEL PROYECTO
+# =============================================================================
 
 status:
-  stage: "case_initialization"
-  note: "Los campos TBD deben definirse únicamente con evidencia trazable o mediante decisiones científicas documentadas."
+  stage: "case_initialization"                 # ¿En qué etapa está el proyecto?
+  note: "Los campos TBD deben definirse únicamente con evidencia o mediante decisiones científicas documentadas."
